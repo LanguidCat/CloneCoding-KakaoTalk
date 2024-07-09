@@ -29,3 +29,15 @@
     left: 15px;
     bottom: 15px;
 }
+.nav__noti-small {
+    background-color: tomato;
+    display: flex;
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 22px;
+    bottom: 21px;
+}
