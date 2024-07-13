@@ -12,12 +12,12 @@
 .badge__small {
     background-color: tomato;
     display: flex;
-    width: 8px;
-    height: 8px;
-    border-radius: 4px;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
     justify-content: center;
     align-items: center;
     position: absolute;
-    right: 0;
-    top: 0;
+    top: 24px;
+    right: 20px;
 }
