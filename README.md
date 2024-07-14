@@ -1,8 +1,8 @@
 # Cloning Kakao Talk App
 
-![index](img/index.png)
-![frineds](img/friends.png)
-![chats](img/chats.png)
-![find](img/find.png)
-![more](img/more.png)
-![setting](img/setting.png)
+![index](img/preview-index.png)
+![frineds](img/preview-friends.png)
+![chats](img/preview-chats.png)
+![find](img/preview-find.png)
+![more](img/preview-more.png)
+![setting](img/preview-setting.png)
