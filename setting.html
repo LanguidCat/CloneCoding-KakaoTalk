@@ -24,32 +24,70 @@
 
     <header class="alt-header">
       <div class="alt-header__column">
-        <i class="far fa-angle-left fa-2x"></i>
+        <a href="more.html">
+          <span><i class="far fa-angle-left fa-2x"></i></span>
+        </a>
       </div>
       <div class="alt-header__column">
         <h1 class="alt-header__title">Setting</h1>
       </div>
       <div class="alt-header__column">
-        <i class="fas fa-search fa-2x"></i>
+        <span><i class="fas fa-search fa-2x"></i></span>
       </div>
     </header>
 
     <main class="main-screen">
       <ul class="settings-list">
         <li class="settings__setting">
-          <i class="far fa-bullhorn"></i>
-          <span>Notices</span>
+          <div class="settings__setting-column">
+            <i class="far fa-bullhorn"></i>
+            <span>Notices</span>
+          </div>
+          <div class="settings__setting-column"></div>
         </li>
         <li class="settings__setting">
-          <i class="fas fa-flask"></i>
-          <span>Kakao Lab</span>
+          <div class="settings__setting-column">
+            <i class="fas fa-flask"></i>
+            <span>Kakao Lab</span>
+          </div>
+          <div class="settings__setting-column"></div>
         </li>
         <li class="settings__setting">
-          <i class="fas fa-info-circle"></i>
-          <span>Version</span>
+          <div class="settings__setting-column">
+            <i class="fas fa-info-circle"></i>
+            <span>Version</span>
+          </div>
+          <div class="settings__setting-column">Latest Version</div>
         </li>
       </ul>
     </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="fa-regular fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">1</span>
+            <i class="fa-solid fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="nav__noti-small"></span>
+            <i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
 
     <script
       src="https://kit.fontawesome.com/94639e71cb.js"
