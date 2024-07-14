@@ -35,3 +35,7 @@
     font-size: 32px;
     color: white;
 }
+.more-suggestions__icon-image:last-child i {
+    font-size: 20px;
+    color: white;
+}
