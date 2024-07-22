@@ -1,23 +1,26 @@
 .badge {
-    background-color: tomato;
-    color: white;
-    font-weight: 600;
-    width: 30px;
-    height: 30px;
-    border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: tomato;
+  color: white;
+  font-weight: 600;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .badge__small {
-    background-color: tomato;
-    display: flex;
-    width: 6px;
-    height: 6px;
-    border-radius: 3px;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 24px;
-    right: 20px;
+  background-color: tomato;
+  display: flex;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 24px;
+  right: 20px;
+}
+.non-alert {
+  background-color: white;
 }
